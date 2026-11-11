@@ -1,0 +1,113 @@
+{
+  "base_seed": 20261110,
+  "company": "Fernbrook Supply Co. (fictional sample company)",
+  "comparison": {
+    "completion_rate": {
+      "delta": 0.1195,
+      "governed": 0.9639,
+      "naive": 0.8444
+    },
+    "escape_rate_per_100": {
+      "delta": -16.17,
+      "governed": 1.23,
+      "naive": 17.4
+    },
+    "field_survival_final": {
+      "delta": 0.0592,
+      "governed": 0.9754,
+      "naive": 0.9162
+    },
+    "orphan_rate": {
+      "delta": -0.0389,
+      "governed": 0.0,
+      "naive": 0.0389
+    }
+  },
+  "days": 20,
+  "governed": {
+    "commitments_attempted": 1794,
+    "completion_rate": 0.9639,
+    "conductor_interventions": 39,
+    "days": 20,
+    "detours": 0,
+    "escape_rate_per_100": 1.23,
+    "field_survival_final": 0.9754,
+    "field_survival_transit": 0.9203,
+    "fields_required": 2522,
+    "gate_corrected": {
+      "claim": 29,
+      "discount": 87,
+      "invoice": 31,
+      "promise": 108,
+      "refund": 10
+    },
+    "gate_corrected_total": 265,
+    "handoffs": 1482,
+    "items": 1080,
+    "mode": "governed",
+    "orphan_rate": 0.0,
+    "receipt_recoveries": 139,
+    "residual_by_class": {
+      "invoice": 20,
+      "refund": 2
+    },
+    "residual_violations": 22,
+    "status": {
+      "completed": 1041,
+      "incomplete": 39,
+      "orphaned": 0
+    },
+    "violations_by_class": {
+      "invoice": 20,
+      "refund": 2
+    },
+    "violations_escaped": 22
+  },
+  "naive": {
+    "commitments_attempted": 1661,
+    "completion_rate": 0.8444,
+    "conductor_interventions": 0,
+    "days": 20,
+    "detours": 79,
+    "escape_rate_per_100": 17.4,
+    "field_survival_final": 0.9162,
+    "field_survival_transit": 0.9162,
+    "fields_required": 2421,
+    "gate_corrected": {},
+    "gate_corrected_total": 0,
+    "handoffs": 1523,
+    "items": 1080,
+    "mode": "naive",
+    "orphan_rate": 0.0389,
+    "receipt_recoveries": 0,
+    "residual_by_class": {
+      "invoice": 18,
+      "refund": 2
+    },
+    "residual_violations": 20,
+    "status": {
+      "completed": 912,
+      "incomplete": 126,
+      "orphaned": 42
+    },
+    "violations_by_class": {
+      "claim": 30,
+      "discount": 84,
+      "invoice": 82,
+      "promise": 81,
+      "refund": 12
+    },
+    "violations_escaped": 289
+  },
+  "profiles": {
+    "drop": 0.03,
+    "edge_field_loss": 0.06,
+    "intake_miss": 0.04,
+    "invoice_slip": 0.1,
+    "lax_refund": 0.15,
+    "misroute": 0.08,
+    "over_discount": 0.18,
+    "short_promise": 0.22,
+    "unapproved_claim": 0.25
+  }
+}
