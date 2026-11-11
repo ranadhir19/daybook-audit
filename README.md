@@ -1,4 +1,4 @@
-# dayshift
+# daybook-audit
 
 **Your agent fleet runs the business all day. What did it promise your customers while you weren't looking?**
 
@@ -12,7 +12,7 @@ promise faster than the SLA, a refund outside the window, a claim the
 company never approved), handoffs lose the fields the next department
 needed, and some work simply falls on the floor — silently.
 
-dayshift is that audit, as a runnable simulation bench:
+daybook-audit is that audit, as a runnable simulation bench:
 
 - A **fact store** holds the ground truth: prices, discount cap,
   refund window, delivery SLAs, approved claims.
